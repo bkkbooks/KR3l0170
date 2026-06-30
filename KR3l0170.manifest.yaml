@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR3l0170/v1
+canonical_location: https://kanripo.org/bkk/KR3l0170/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 補侍兒小名錄
+  identifiers:
+    krp: KR3l0170
+  tags:
+    kr-categories: KR3l
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0170.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0170_001.yaml, hash: 'sha256:02f3349f19d8dcbf10f4ef794d616aabef50e551670db69656a6d3584098a51d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0170_001.markers.yaml, hash: 'sha256:11300c57b7702d4952ba24f4d65dcdc096a7814cfdd246955d546f2bdc184bad'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0170_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3530
+  label: 全一卷
+  type: section
+  level: 1
+hash: sha256:73652266df719d230eca76dbfe56203fd9bb81225885e302ef57f1258cb465b8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

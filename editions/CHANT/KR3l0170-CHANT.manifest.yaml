@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR3l0170/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3l0170/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 補侍兒小名錄
+  identifiers:
+    krp: KR3l0170
+  tags:
+    kr-categories: KR3l
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0170.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0170_001-CHANT.yaml, hash: 'sha256:46ce23a1c547f2ff133dbebb8dae38c1f830713a1e895cb6e4dbb19d4e669bc5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0170_001-CHANT.markers.yaml, hash: 'sha256:66305310f7845e2dc5a1d6a9205affd470c49e97310ce713bf251cd8bddfeeaa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0170_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3530
+  label: 全一卷
+  type: section
+  level: 1
+hash: sha256:f97de49bb6ab00955fe7cb76b9c00704bc1344fa49a134919b79433e8c7e9574
